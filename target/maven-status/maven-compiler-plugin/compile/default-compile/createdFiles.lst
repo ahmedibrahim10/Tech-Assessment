@@ -1,0 +1,5 @@
+pages\CatFactsApi.class
+base\PageBase.class
+pages\GoogleSearchPage.class
+pages\DynamicLoadingPage.class
+pages\FileUploadPage.class

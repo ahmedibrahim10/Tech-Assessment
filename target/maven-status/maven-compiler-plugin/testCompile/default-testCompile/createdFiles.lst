@@ -1,0 +1,5 @@
+tests\GoogleSearchTest.class
+base\TestBase.class
+tests\DynamicLoadingTest.class
+tests\FileUploadTest.class
+tests\CatFactsApiTest.class
