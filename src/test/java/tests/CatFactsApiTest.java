@@ -22,17 +22,18 @@ public class CatFactsApiTest  {
 
         String responseBody = response.getBody().asString(); // get the respose body as string
         System.out.println("Response Body: " + responseBody);
-        attachResponse(responseBody);
+        //attachResponse(responseBody);
         String fact = response.jsonPath().getString("fact");
         Assert.assertNotNull(fact, "Fact is null or empty."); // Check if Fact is NULL
         System.out.println("Random Cat Fact: " + fact);
 
 
 }
-    @Attachment(value = "API Response", type = "text/plain")
+  /*  @Attachment(value = "API Response", type = "text/plain")
     private String attachResponse(String response) {
+
         return response;
-    }
+    }*/
 
 
 

@@ -3,8 +3,7 @@ package pages;
 import base.PageBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+
 
 /**
  * Page object for Google's search functionality.
@@ -22,6 +21,7 @@ public class GoogleSearchPage extends PageBase {
      * @param driver WebDriver instance passed to the page object.
      */
     public GoogleSearchPage(WebDriver driver) {
+
         super(driver);
     }
 
